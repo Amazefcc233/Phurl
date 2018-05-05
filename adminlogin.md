@@ -14,7 +14,7 @@ If you can't understand this topic, Please watch this article along with the dem
      </script><br>
 </code><br>
 在原form和/form再加一层<br>
-<code><f orm id='demo-form' action="?" method="POST"></f orm></code><br>
+<code><f o r m id='demo-form' a ction="?" meth od="POST"></f orm></code><br>
 寻找到Login按钮，并将其input加入button<br>
 <code><bu tton class="g-recaptcha" data-sitekey="sitekey" data-callback='onSubmit' input type="submit" value="Login" />登录</bu tton></code><br>
 保存，完事。<br>
