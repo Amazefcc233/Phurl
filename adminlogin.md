@@ -1,7 +1,7 @@
  # Admin Login
-Google Translate is your friend.
-If you can't understand this topic, Please watch this article along with the demo-adminlogin.md.php file.
-如果您无法理解此文章中某些内容，请配合demo-adminlogin.md.php文件食用。
+Google Translate is your friend.<br>
+If you can't understand this topic, Please watch this article along with the demo-adminlogin.md.php file.<br>
+如果您无法理解此文章中某些内容，请配合demo-adminlogin.md.php文件食用。<br>
 想要在admin中的login加入recaptcha验证？这并不是问题。<br>
 （此处使用invisible recaptcha）<br>
 根据我的方法+按照Google的demo，您需要在login.php中，在22与23行之间插入<br>
