@@ -1,12 +1,12 @@
 # Phurl
-本Phurl版本为官方最新版v2.4.2，2010年为最后更新。
-fcc仅将此Phurl进行汉化操作，<strong>版权最终解释权归Phurl创作者/创作团队所有</strong>。
-若发现汉化有任何错误，请及时反馈。
+本Phurl版本为官方最新版v2.4.2，2010年为最后更新。<br>
+fcc仅将此Phurl进行汉化操作，<strong>版权最终解释权归Phurl创作者/创作团队所有</strong>。<br>
+若发现汉化有任何错误，请及时反馈。<br>
 
-版本要求:
- • 需要php与MySQL
- • <strong>php版本必须低于5.6，否则服务器的MySQL将无法连接，报出500错误</strong>
- • 若有其它内容您发现有要求，欢迎提出。
+版本要求:<br>
+ • 需要php与MySQL<br>
+ • <strong>php版本必须低于5.6，否则服务器的MySQL将无法连接，报出500错误</strong><br>
+ • 若有其它内容您发现有要求，欢迎提出。<br>
  
 注意事项: 
  • php版本不得高于5.6，否则500Internet server error，站点无法安装/访问。
