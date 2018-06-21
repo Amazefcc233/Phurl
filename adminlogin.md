@@ -4,14 +4,15 @@ If you can't understand this topic, Please watch this article along with the dem
 如果您无法理解此文章中某些内容，请配合demo-adminlogin.md.php文件食用。<br>
 想要在admin中的login加入recaptcha验证？这并不是问题。<br>
 （此处使用invisible recaptcha）<br>
+为防止markdown识别错误，一些代码内添加了<code>%</code>。在您修改对应文件时请勿添加。
 根据我的方法+按照Google的demo，您需要在login.php中，在22与23行之间插入<br>
 <code><script src="https://www.google.com/recaptcha/api.js" async defer></script></code><br>
 <code><br>
-     <script><br>
+     <%script><br>
        function onSubmit(token) {<br>
          document.getElementById("demo-form").submit();<br>
        }<br>
-     </script><br>
+     </script%><br>
 </code><br>
 在原form和/form再加一层<br>
 <code><%form id='demo-form' action="?" method="POST"></form%></code><br>
